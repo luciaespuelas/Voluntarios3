@@ -1,0 +1,7 @@
+let numero1 = parseFloat(prompt("Dime el primer número:"));
+let numero2 = parseFloat(prompt("Dime el segundo número:"));
+let numero3 = parseFloat(prompt("Dime el tercer número:"));
+
+let media = (numero1 + numero2 + numero3) / 3;
+
+console.log("La media de los tres números es: " + media);
