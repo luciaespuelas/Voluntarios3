@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function saludo() {
+  document.getElementById("mensaje2").innerHTML = "Plátano";
+}
+</script>
+</head>
+<body>
+
+<h2>JavaScript en el cuerpo del html y en la cabecera</h2>
+
+<p id="mensaje"></p>
+
+<script>
+document.getElementById("mensaje").innerHTML = "Hola Mundo, hola Mundo";
+</script>
+
+
+	<p id="mensaje2">Pulsa al botón para ver la respuesta</p>
+<button type="button" onclick="saludo()">Oro parece platano es..</button>
+</body>
+</html> 
