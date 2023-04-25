@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Muestra Imagen 1 o 2?</h2>
+
+<p>cambiamos el la imagen que se carga en el objeto laimagen</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('laimagen').src='imagen1.png'">Imagen1</button>
+
+<img id="laimagen" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('laimagen').src='imagen2.png'">Imagen2</button>
+
+</body>
+</html>
